@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+     <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css" />
+    
+     <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Drinks Ordering System</title>
+    <style>
+    body {
+      background-color: #f1f2e7;
+    }   
+    h1, h3, h4 {
+      font-weight: 600;
+      font-family: Arial, sans-serif;
+  
+    }   
+    label {
+      font-weight: 500;
+      font-family: Arial, sans-serif;
+    }
+    #output {
+      font-family: "Arial, sans-serif", monospace;
+      white-space: pre-line; 
+      border-left: 4px solid #2479db;
+    }
+    </style>
+</head>
+<body>
+    <h1>Drinks Ordering System</h1>
+    <h3>Any drink here is available</h3>
+    <label for="drink">Choose a drink:</label><br>
+    <input type="checkbox" id="d1" value="P10">Water</input><br>
+    <input type="checkbox" id="d2" value="P18">Iced Tea</input><br>
+    <input type="checkbox" id="d3" value="P18">Milktea</input><br>
+    <input type="checkbox" id="d4" value="P25">Brewed Coffee</input><br>
+    <input type="checkbox" id="d5" value="P20">Sprite</input><br>
+    <input type="checkbox" id="d6" value="P20">Pepsi</input><br>
+    <input type="checkbox" id="d7" value="P20">Coca-Cola</input><br>
+    <input type="checkbox" id="d8" value="P20">C2</input><br>
+
+
+    <h3>Contact Details</h3>
+    <input type="text" id="contact" placeholder="Enter your contact details here"></input><br>
+    <h4>Customer Name</h3>
+    <input type="text" id="name" placeholder="name"></input><br>
+    <button type="submit" class="btn btn-primary mb-3" py-click="show_info">Generate</button>
+
+
+ <div id="output" class="bg-light text-dark p-3 rounded" style="white-space: pre-line;"></div> 
+<script type="py" src="main.py">
+
+
+    </script>
+
+
+</body>
+</html>
